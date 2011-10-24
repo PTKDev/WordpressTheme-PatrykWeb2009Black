@@ -1,0 +1,50 @@
+#logo{
+	background-image: url("./../img/ptkweb_logo.png"); 
+	background-repeat: no-repeat; 
+	width: 460px;
+	height: 57px; 
+	float: left;
+}
+
+#social{
+	text-align: right;
+	margin-right: 50px;
+	float: right;
+}
+
+
+.fb_hover {
+	display: block;
+	width: 64px;
+	height: 64px;
+	background: url('./../img/fb.png') bottom;
+	text-indent: -99999px;
+	float: left;
+}
+.fb_hover:hover {
+	background-position: 0 0;
+}
+
+.tw_hover {
+	display: block;
+	width: 64px;
+	height: 64px;
+	background: url('./../img/tw.png') bottom;
+	text-indent: -99999px;
+	float: left;
+}
+.tw_hover:hover {
+	background-position: 0 0;
+}
+
+.rss_hover {
+	display: block;
+	width: 64px;
+	height: 64px;
+	background: url('./../img/rss.png') bottom;
+	text-indent: -99999px;
+	float: left;
+}
+.rss_hover:hover {
+	background-position: 0 0;
+}

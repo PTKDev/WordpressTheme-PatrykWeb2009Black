@@ -1,0 +1,30 @@
+a:link, a:visited, a:hover, a:active, a:focus{
+	color: #FFFFFF;
+}
+
+a:link:hover, a:visited:hover{ 
+	text-decoration:underline;
+}
+a:active{ 
+	text-decoration:none;
+}
+a:focus{ 
+	text-decoration:underline;
+}
+a:visited{ 
+	text-decoration:none;
+}
+a:link{ 
+	text-decoration:none;
+}
+
+a.link_footer:link, a.link_footer:visited, a.link_footer:hover, a.link_footer:active, a.link_footer:focus{
+	color: #FFFFFF;
+}
+
+a.title_post:link, a.title_post:visited, a.title_post:hover, a.title_post:active, a.title_post:focus{
+	font-family: "Trebuchet MS",Trebucbi,Droid,MSVerdana,"Verdana"; 
+	font-size: 18px;
+	color: #FFFFFF;
+}
+

@@ -1,0 +1,57 @@
+html,body{
+	background-color: #141519; 
+	background-image: url("./../img/ptkweb_header_bg.png"); 
+	background-repeat: repeat-x;
+	margin: 0 auto;
+}
+
+img {
+	border: 0;
+}
+
+@font-face {
+  font-family: Droid;
+  src: local('Droid'), url("./font/droid.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: MSVerdana;
+  src: local('MSVerdana'), url("./font/verdana.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: MSVerdanaBold;
+  src: local('MSVerdanaBold'), url("./font/verdanab.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Trebucbi;
+  src: local('Trebucbi'), url("./font/trebuc.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: TrebucbiBold;
+  src: local('TrebucbiBold'), url("./font/trebucbd.ttf") format("truetype");
+}
+
+#container{
+	background-image: url("./../img/ptkweb_bg.png"); 
+	background-repeat: repeat-y;
+	margin: 0 auto;
+	width: 985px;
+}
+
+#header{
+	background-image: url("./../img/ptkweb_header.png"); 
+	background-repeat: no-repeat; 
+	width: 985px;
+	height: 100px; 
+}
+
+#footer{
+	background-image: url("./../img/ptkweb_footer.png"); 
+	background-repeat: repeat-x; 
+	width: 100%;
+	height: 43px; 
+	clear: both;
+}
